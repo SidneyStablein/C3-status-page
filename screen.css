@@ -1,4 +1,94 @@
 /* Add screen styles below */
-a.active {
-    font-weight: bold;
+@import url('https://fonts.googleapis.com/css2?family=Monofett&family=Mr+Dafoe&family=Nova+Mono&family=Poller+One&display=swap');
+
+:root {
+    --primary-text-color: #FFE971;
 }
+
+.mono {
+    font-family: "Monofett", monospace;
+    color: var(--primary-text-color);
+}
+
+body {
+    background-image: url(Milky-Way-Figma.jpg);
+}
+
+h1 {
+    font-family: "Poller One", serif;
+    color: var(--primary-text-color);
+    font-size: 32px;
+    border: white;
+    border-width: 1px;
+}
+
+p {
+    font-family: "NovaMono", monospace;
+    font-size: 24px;
+    color: white;
+}
+
+.container {
+    border: white;
+    border-width: 1px;
+    border-radius: 25px;
+    background-color: black;
+    width: 867px;
+    height: 701px;
+    margin: 0 auto;
+}
+
+.mainflex {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.spaceship1 {
+    width: 401px;
+    height: 182px;
+}
+
+.spaceship2 {
+    width: 387px;
+    height: 227px;
+}
+
+.flexbox1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexbox2 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 35px;
+    width: 418px;
+    height: 705px;
+    border: white;
+    border-width: 1px;
+    background-color: black;
+}
+
+
+.imageBox {
+    position: relative;
+    float: left;
+  }
+  
+  .imageBox .hoverImg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+  }
+  
+  .imageBox:hover .hoverImg {
+    display: block;
+  }
+
+
